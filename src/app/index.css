@@ -1,0 +1,100 @@
+@import "tailwindcss/preflight";
+@import "tailwindcss";
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'Montserrat-B';
+    src: url('../app/fonts/Montserrat-Bold.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-M';
+    src: url('../app/fonts/Montserrat-Medium.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* CONTAINER */
+
+.header__container {
+    max-width: 1200px;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+
+.main-container {
+    max-width: 1270px;
+    margin: 0 auto; 
+}
+
+.container-table {
+    width: 100%;
+    /* justify-content: space-between; */
+    gap: 2px;
+}
+
+.container-table-id {
+    width: 100%;
+    gap: 8px;
+}
+
+.container-data {
+    gap: 42px;
+}
+
+.color-text-button {
+    color: #424242;
+    font-family: 'Montserrat-M';
+    padding: 0 7px 0 0;
+}
+
+.pad-t {
+    padding-top: 50px;
+}
+
+.pad-r {
+    padding-right: 23px;
+}
+
+.pad-id {
+    padding-right: 30px;
+}
+
+.padpad {
+    padding-right: 70px;
+}
+
+.size-xl {
+    font-size: 24px;
+}
+
+/* BORDERS */
+
+.border-t {
+    border-top: 1px solid;
+}
+
+.border-r {
+    border-right: 1px solid;
+}
+
+.border-b {
+    border-bottom: 1px solid;
+}
+
+.border-l {
+    border-left: 1px solid;
+}
+
+.border {
+    border: 1px solid;
+}
+
+/* FONT-SIZE */
+
+.font-14 {
+    font-size: 14px;
+}
