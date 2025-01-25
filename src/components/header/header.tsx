@@ -46,7 +46,7 @@ const Header = () => {
 								<Button img={orderIcon} text='Заказы' link={'/orders'} />
 							</div>
 						</div>
-						<div className="mar-t">
+						<div className="mar-t" style={{fontFamily: 'Montserrat-B'}}>
 							{dataTime}
 						</div>
 					</div>
