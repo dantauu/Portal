@@ -141,46 +141,46 @@ const Table: React.FC<TableProps> = ({ data, onRowClick }) => {
 						<th className='px-4 py-2 font-14 border-r border-l w-[75px] text-center'>
 							Операция
 						</th>
-						<th className='px-4 py-2 font-14 border-r max-w-[72px] text-center'>
+						<th className='px-4 py-2 font-14 border-r w-[82px] text-center'>
 							Дата погрузки
 						</th>
-						<th className='px-4 py-2 font-14 border-r w-[71px] text-center'>
+						<th className='px-4 py-2 font-14 border-r w-[82px] text-center'>
 							Терминал 1
 						</th>
 						<th className='px-4 py-2 text-center font-14 border-r w-[71px]'>
 							Склад
 						</th>
-						<th className='px-4 py-2 text-center font-14 border-r w-[72px]'>
+						<th className='px-4 py-2 text-center font-14 border-r w-[82px]'>
 							Терминал 2
 						</th>
-						<th className='px-4 py-2 text-center font-14 border-r w-[72px]'>
+						<th className='px-4 py-2 text-center font-14 border-r w-[80px]'>
 							Профиль ТС
 						</th>
-						<th className='px-4 py-2 text-center font-14 border-r w-[72px]'>
+						<th className='px-4 py-2 text-center font-14 border-r w-[80px]'>
 							Статус
 						</th>
-						<th className='px-4 py-2 text-center font-14 border-r w-[71px]'>
+						<th className='px-4 py-2 text-center font-14 border-r w-[80px]'>
 							Торги
 						</th>
-						<th className='px-4 py-2 text-center font-14 border-r w-[72px]'>
+						<th className='px-4 py-2 text-center font-14 border-r w-[80px]'>
 							Моя цена
 						</th>
-						<th className='px-4 py-2 text-center font-14 border-r w-[71px]'>
+						<th className='px-4 py-2 text-center font-14 border-r w-[80px]'>
 							Предло- жение
 						</th>
-						<th className='px-4 py-2 text-center font-14 border-r w-[71px]'>
+						<th className='px-4 py-2 text-center font-14 border-r w-[80px]'>
 							Согла- совано
 						</th>
-						<th className='px-4 py-2 text-center font-14 border-r w-[72px]'>
+						<th className='px-4 py-2 text-center font-14 border-r w-[80px]'>
 							Доп услуги
 						</th>
-						<th className='px-4 py-2 text-center font-14 border-r w-[71px]'>
+						<th className='px-4 py-2 text-center font-14 border-r w-[80px]'>
 							Цена + дом усл
 						</th>
-						<th className='px-4 py-2 text-center font-14 border-r w-[72px]'>
+						<th className='px-4 py-2 text-center font-14 border-r w-[80px]'>
 							Комиссия
 						</th>
-						<th className='px-4 py-2 text-center font-14 border-r w-[72px]'>
+						<th className='px-4 py-2 text-center font-14 border-r w-[80px]'>
 							К оплате
 						</th>
 						<th className='px-4 py-2 text-center font-14 border-r w-[72px]'>

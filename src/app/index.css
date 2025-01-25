@@ -38,7 +38,6 @@
 
 .container-table-id {
     width: 100%;
-    gap: 8px;
 }
 
 .container-data {
@@ -62,7 +61,8 @@
 }
 
 .pad-id {
-    padding-right: 54px;
+    /* padding-right: 54px; */
+    min-width: 76px;
 }
 
 .padpad {
