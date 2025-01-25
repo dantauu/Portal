@@ -58,8 +58,8 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, onSave, initialData, }) 
 	if (!isOpen) return null
 
 	return (
-		<div className='fixed inset-0 flex items-center justify-center bg-gray-500 bg-opacity-50'>
-			<div className='bg-white p-6 rounded-lg'>
+		<div className='fixed inset-0 flex items-center justify-center bg-[#00000082] bg-opacity-50'>
+			<div className='bg-white rounded-lg modal-pad'>
 				<form>
 					<div>
 						<label>ID</label>

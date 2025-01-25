@@ -42,7 +42,7 @@
 }
 
 .container-data {
-    gap: 42px;
+    /* gap: 42px; */
 }
 
 .color-text-button {
@@ -50,6 +50,8 @@
     font-family: 'Montserrat-M';
     padding: 0 7px 0 0;
 }
+
+/* PADDING */
 
 .pad-t {
     padding-top: 50px;
@@ -60,11 +62,22 @@
 }
 
 .pad-id {
-    padding-right: 30px;
+    padding-right: 54px;
 }
 
 .padpad {
-    padding-right: 70px;
+    padding-right: 68px;
+    border-right: 2px solid;
+}
+
+/* MODAL-pad */
+
+.modal-pad {
+    padding: 50px 30px 50px 30px;
+}
+
+.mar-t {
+    margin-top: 20px;
 }
 
 .size-xl {
@@ -79,6 +92,29 @@
 
 .border-r {
     border-right: 1px solid;
+}
+
+.border-r-w-1 {
+    border-right: 2px solid;
+    min-width: 80px;
+}
+
+.border-r-w-2 {
+    border-right: 2px solid;
+    min-width: 82px;
+    font-size: 14px;
+}
+
+.border-r-w-3 {
+    border-right: 2px solid;
+    min-width: 79px;
+    font-size: 16px;
+}
+
+.border-r-w-4 {
+    border-right: 2px solid;
+    min-width: 79px;
+    font-size: 16px;
 }
 
 .border-b {

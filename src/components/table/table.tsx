@@ -42,95 +42,94 @@ const Table: React.FC<TableProps> = ({ data, onRowClick }) => {
 		<div className='overflow-x-auto'>
 			<table className='min-w-full table-auto border-gray-300'>
 				<thead className='bg-gray-200'>
-					{/* Первая строка с кнопками "Фильтр" */}
 					<tr className='flex gap-x-[40px] gap-y-[10px] container-table border-t border-b'>
 						<th className='px-4 py-2 text-left border-r pad-r'>
-							<button className='w-full p-2 text-sm bg-blue-500 text-white rounded-md cursor-pointer font-14'>
+							<button className='w-full p-2 text-sm text-white rounded-md cursor-pointer font-14'>
 								Фильтр
 							</button>
 						</th>
 						<th className='px-4 py-2 text-left border-r pad-r'>
-							<button className='w-full p-2 text-sm bg-blue-500 text-white rounded-md cursor-pointer font-14'>
+							<button className='w-full p-2 text-sm text-white rounded-md cursor-pointer font-14'>
 								Фильтр
 							</button>
 						</th>
 						<th className='px-4 py-2 text-left border-r pad-r'>
-							<button className='w-full p-2 text-sm bg-blue-500 text-white rounded-md cursor-pointer font-14'>
+							<button className='w-full p-2 text-sm text-white rounded-md cursor-pointer font-14'>
 								Фильтр
 							</button>
 						</th>
 						<th className='px-4 py-2 text-left border-r pad-r'>
-							<button className='w-full p-2 text-sm bg-blue-500 text-white rounded-md cursor-pointer font-14'>
+							<button className='w-full p-2 text-sm text-white rounded-md cursor-pointer font-14'>
 								Фильтр
 							</button>
 						</th>
 						<th className='px-4 py-2 text-left border-r pad-r'>
-							<button className='w-full p-2 text-sm bg-blue-500 text-white rounded-md cursor-pointer font-14'>
+							<button className='w-full p-2 text-sm text-white rounded-md cursor-pointer font-14'>
 								Фильтр
 							</button>
 						</th>
 						<th className='px-4 py-2 text-left border-r pad-r'>
-							<button className='w-full p-2 text-sm bg-blue-500 text-white rounded-md cursor-pointer font-14'>
+							<button className='w-full p-2 text-sm text-white rounded-md cursor-pointer font-14'>
 								Фильтр
 							</button>
 						</th>
 						<th className='px-4 py-2 text-left border-r pad-r'>
-							<button className='w-full p-2 text-sm bg-blue-500 text-white rounded-md cursor-pointer font-14'>
+							<button className='w-full p-2 text-sm text-white rounded-md cursor-pointer font-14'>
 								Фильтр
 							</button>
 						</th>
 						<th className='px-4 py-2 text-left border-r pad-r'>
-							<button className='w-full p-2 text-sm bg-blue-500 text-white rounded-md cursor-pointer font-14'>
+							<button className='w-full p-2 text-sm text-white rounded-md cursor-pointer font-14'>
 								Фильтр
 							</button>
 						</th>
 						<th className='px-4 py-2 text-left border-r pad-r'>
-							<button className='w-full p-2 text-sm bg-blue-500 text-white rounded-md cursor-pointer font-14'>
+							<button className='w-full p-2 text-sm text-white rounded-md cursor-pointer font-14'>
 								Фильтр
 							</button>
 						</th>
 						<th className='px-4 py-2 text-left border-r pad-r'>
-							<button className='w-full p-2 text-sm bg-blue-500 text-white rounded-md cursor-pointer font-14'>
+							<button className='w-full p-2 text-sm text-white rounded-md cursor-pointer font-14'>
 								Фильтр
 							</button>
 						</th>
 						<th className='px-4 py-2 text-left border-r pad-r'>
-							<button className='w-full p-2 text-sm bg-blue-500 text-white rounded-md cursor-pointer font-14'>
+							<button className='w-full p-2 text-sm text-white rounded-md cursor-pointer font-14'>
 								Фильтр
 							</button>
 						</th>
 						<th className='px-4 py-2 text-left border-r pad-r'>
-							<button className='w-full p-2 text-sm bg-blue-500 text-white rounded-md cursor-pointer font-14'>
+							<button className='w-full p-2 text-sm text-white rounded-md cursor-pointer font-14'>
 								Фильтр
 							</button>
 						</th>
 						<th className='px-4 py-2 text-left border-r pad-r'>
-							<button className='w-full p-2 text-sm bg-blue-500 text-white rounded-md cursor-pointer font-14'>
+							<button className='w-full p-2 text-sm text-white rounded-md cursor-pointer font-14'>
 								Фильтр
 							</button>
 						</th>
 						<th className='px-4 py-2 text-left border-r pad-r'>
-							<button className='w-full p-2 text-sm bg-blue-500 text-white rounded-md cursor-pointer font-14'>
+							<button className='w-full p-2 text-sm text-white rounded-md cursor-pointer font-14'>
 								Фильтр
 							</button>
 						</th>
 						<th className='px-4 py-2 text-left border-r pad-r'>
-							<button className='w-full p-2 text-sm bg-blue-500 text-white rounded-md cursor-pointer font-14'>
+							<button className='w-full p-2 text-sm text-white rounded-md cursor-pointer font-14'>
 								Фильтр
 							</button>
 						</th>
 						<th className='px-4 py-2 text-left border-r pad-r'>
-							<button className='w-full p-2 text-sm bg-blue-500 text-white rounded-md cursor-pointer font-14'>
+							<button className='w-full p-2 text-sm text-white rounded-md cursor-pointer font-14'>
 								Фильтр
 							</button>
 						</th>
 						<th className='px-4 py-2 text-left border-r pad-r'>
-							<button className='w-full p-2 text-sm bg-blue-500 text-white rounded-md cursor-pointer font-14'>
+							<button className='w-full p-2 text-sm text-white rounded-md cursor-pointer font-14'>
 								Фильтр
 							</button>
 						</th>
 						<th className='px-4 py-2 text-left border-r pad-r'>
-							<button className='w-full p-2 text-sm bg-blue-500 text-white rounded-md cursor-pointer font-14'>
+							<button className='w-full p-2 text-sm text-white rounded-md cursor-pointer font-14'>
 								Фильтр
 							</button>
 						</th>
@@ -139,26 +138,80 @@ const Table: React.FC<TableProps> = ({ data, onRowClick }) => {
 					{/* Вторая строка с названиями столбцов */}
 					<tr className='bg-gray-300 flex container-table-id border-b'>
 						<th className='px-4 py-2 text-left font-14 pad-id'>ID</th>
-						<th className='px-4 py-2 text-left font-14'>Операция</th>
-						<th className='px-4 py-2 text-left font-14'>Дата погрузки</th>
-						<th className='px-4 py-2 text-left font-14'>Терминал 1</th>
-						<th className='px-4 py-2 text-left font-14'>Склад</th>
-						<th className='px-4 py-2 text-left font-14'>Терминал 2</th>
-						<th className='px-4 py-2 text-left font-14'>Профиль ТС</th>
-						<th className='px-4 py-2 text-left font-14'>Статус</th>
-						<th className='px-4 py-2 text-left font-14'>Торги</th>
+						<th className='px-4 py-2 font-14 border-r border-l w-[81px] text-center'>
+							Операция
+						</th>
+						<th className='px-4 py-2 font-14 border-r w-[73px] text-center'>
+							Дата погрузки
+						</th>
+						<th className='px-4 py-2 font-14 border-r w-[71px] text-center'>
+							Терминал 1
+						</th>
+						<th className='px-4 py-2 text-center font-14 border-r w-[71px]'>
+							Склад
+						</th>
+						<th className='px-4 py-2 text-center font-14 border-r w-[72px]'>
+							Терминал 2
+						</th>
+						<th className='px-4 py-2 text-center font-14 border-r w-[72px]'>
+							Профиль ТС
+						</th>
+						<th className='px-4 py-2 text-center font-14 border-r w-[72px]'>
+							Статус
+						</th>
+						<th className='px-4 py-2 text-center font-14 border-r w-[71px]'>
+							Торги
+						</th>
+						<th className='px-4 py-2 text-center font-14 border-r w-[72px]'>
+							Моя цена
+						</th>
+						<th className='px-4 py-2 text-center font-14 border-r w-[71px]'>
+							Предло- жение
+						</th>
+						<th className='px-4 py-2 text-center font-14 border-r w-[71px]'>
+							Согла- совано
+						</th>
+						<th className='px-4 py-2 text-center font-14 border-r w-[72px]'>
+							Доп услуги
+						</th>
+						<th className='px-4 py-2 text-center font-14 border-r w-[71px]'>
+							Цена + дом усл
+						</th>
+						<th className='px-4 py-2 text-center font-14 border-r w-[72px]'>
+							Комиссия
+						</th>
+						<th className='px-4 py-2 text-center font-14 border-r w-[72px]'>
+							К оплате
+						</th>
+						<th className='px-4 py-2 text-center font-14 border-r w-[72px]'>
+							Создано
+						</th>
+						<th className='px-4 py-2 text-center font-14 border-r w-[71px]'>
+							Создал
+						</th>
+						<th className='px-4 py-2 text-center font-14 border-r w-[71px]'>
+							Клиент
+						</th>
 					</tr>
 				</thead>
 				<tbody>
-					{/* Строки таблицы */}
 					{table.getRowModel().rows.map(row => (
 						<tr
 							key={row.id}
 							onClick={() => onRowClick(row.original)} // Клик по строке
-							className={`cursor-pointer hover:bg-gray-100 flex container-data border ${row.id === 'id' && 'padpad'}`}
+							className='cursor-pointer hover:bg-gray-100 flex container-data border'
 						>
 							{row.getVisibleCells().map(cell => (
-								<td key={cell.id} className='px-4 py-2 border-r border-l'>
+								<td
+									key={cell.id}
+									className={`px-4 py-2
+										${cell.column.id === 'id' ? 'padpad' : ''}
+										${cell.column.id === 'oper' ? 'border-r-w-1' : ''}
+										${cell.column.id === 'date' ? 'border-r-w-2' : ''}
+										${cell.column.id === 'term' ? 'border-r-w-3' : ''}
+										${cell.column.id === 'store' ? 'border-r-w-4' : ''}
+										`}
+								>
 									{flexRender(cell.column.columnDef.cell, cell.getContext())}
 								</td>
 							))}
