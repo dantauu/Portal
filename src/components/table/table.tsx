@@ -147,7 +147,7 @@ const Table: React.FC<TableProps> = ({ data, onRowClick }) => {
 						<th className='px-4 py-2 font-14 border-r w-[71px] text-center'>
 							Терминал 1
 						</th>
-						<th className='px-4 py-2 text-center font-14 border-r w-[71px]'>
+						<th className='px-4 py-2 text-center font-14 border-r min-w-[71px]'>
 							Склад
 						</th>
 						<th className='px-4 py-2 text-center font-14 border-r w-[72px]'>
