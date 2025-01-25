@@ -118,6 +118,12 @@
     font-size: 16px;
 }
 
+.border-r-w-5 {
+    border-right: 2px solid;
+    min-width: 80px;
+    font-size: 16px;
+}
+
 .border-b {
     border-bottom: 1px solid;
 }
