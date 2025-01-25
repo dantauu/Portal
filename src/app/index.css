@@ -124,6 +124,12 @@
     font-size: 16px;
 }
 
+.border-r-w-6 {
+    border-right: 2px solid;
+    min-width: 87px;
+    font-size: 16px;
+}
+
 .border-b {
     border-bottom: 1px solid;
 }

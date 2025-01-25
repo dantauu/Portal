@@ -238,12 +238,12 @@ const Table: React.FC<TableProps> = ({ data, onRowClick }) => {
 										${cell.column.id === 'date' ? 'border-r-w-2' : ''}
 										${cell.column.id === 'term' ? 'border-r-w-3' : ''}
 										${cell.column.id === 'store' ? 'border-r-w-4' : ''}
-										${cell.column.id === 'term2' ? 'border-r-w-4' : ''}
-										${cell.column.id === 'profTS' ? 'border-r-w-4' :''}
+										${cell.column.id === 'term2' ? 'border-r-w-6' : ''}
+										${cell.column.id === 'profTS' ? 'border-r-w-6' :''}
 										${cell.column.id === 'status' ? 'border-r-w-4' :''}
-										${cell.column.id === 'areaBuy' ? 'border-r-w-4':''}
+										${cell.column.id === 'areaBuy' ? 'border-r-w-6':''}
 										${cell.column.id === 'myPrice' ? 'border-r-w-4':''}
-										${cell.column.id === 'propos' ? 'border-r-w-4':''}
+										${cell.column.id === 'propos' ? 'border-r-w-6':''}
 										${cell.column.id === 'doubleOk' ?'border-r-w-5':''}
 										${cell.column.id === 'plusPropos' ?'border-r-w-5':''}
 										${cell.column.id === 'priceAnPropos' ?'border-r-w-5':''}
