@@ -250,7 +250,7 @@ const Table: React.FC<TableProps> = ({ data, onRowClick }) => {
 										${cell.column.id === 'comission' ?'border-r-w-5':''}
 										${cell.column.id === 'toPrice' ?'border-r-w-5':''}
 										${cell.column.id === 'create' ?'border-r-w-5':''}
-										${cell.column.id === 'okCreating' ?'border-r-w-5':''}
+										${cell.column.id === 'okCreating' ?'border-r-w-7':''}
 										
 										`}
 								>
