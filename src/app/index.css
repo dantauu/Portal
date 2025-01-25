@@ -66,8 +66,9 @@
 }
 
 .padpad {
-    padding-right: 68px;
+    /* padding-right: 68px; */
     border-right: 2px solid;
+    min-width: 77px;
 }
 
 /* MODAL-pad */
