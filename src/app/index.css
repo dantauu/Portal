@@ -96,7 +96,7 @@
 
 .border-r-w-1 {
     border-right: 2px solid;
-    min-width: 80px;
+    min-width: 74px;
 }
 
 .border-r-w-2 {
@@ -108,7 +108,7 @@
 .border-r-w-3 {
     border-right: 2px solid;
     min-width: 79px;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .border-r-w-4 {
