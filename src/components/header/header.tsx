@@ -40,7 +40,7 @@ const Header = () => {
 					<div className='flex flex-col'>
 						<div className='button__nav-wrapper flex gap-10'>
 							<div className='button__application'>
-								<Button img={applicationIcon} text='Заявки' link={'/'} />
+								<Button img={applicationIcon} text='Заявки' link={'/main'} />
 							</div>
 							<div className='button__order'>
 								<Button img={orderIcon} text='Заказы' link={'/orders'} />

@@ -40,10 +40,6 @@
     width: 100%;
 }
 
-.container-data {
-    /* gap: 42px; */
-}
-
 .color-text-button {
     color: #424242;
     font-family: 'Montserrat-M';
@@ -51,6 +47,10 @@
 }
 
 /* PADDING */
+
+.margin-t {
+    margin-top: 58px;
+}
 
 .pad-t {
     padding-top: 50px;
@@ -71,10 +71,14 @@
     min-width: 77px;
 }
 
-/* MODAL-pad */
+/* MODAL-pad FORM-pad */
 
 .modal-pad {
     padding: 50px 30px 50px 30px;
+}
+
+.form-pad {
+    padding: 78px 95px 66px 95px;
 }
 
 .mar-t {
@@ -92,7 +96,7 @@
 }
 
 .border-r {
-    border-right: 1px solid;
+    border-right: 2px solid;
 }
 
 .border-r-w-1 {

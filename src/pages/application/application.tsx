@@ -1,7 +1,8 @@
 import { useContext, useState } from "react"
-import Table, { TableData } from "../../components/table/table"
+import Table from "../../components/table/table"
 import Modal from "../../components/modal-add/modal-add"
 import { CurrentContext, ModalContext } from "../../app/App"
+import { TableData } from "../../app/types/global"
 
 
 const Application = () => {

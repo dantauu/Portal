@@ -1,32 +1,13 @@
 import React from 'react'
+
 import {
 	useReactTable,
 	ColumnDef,
 	getCoreRowModel,
 	flexRender,
 } from '@tanstack/react-table'
+import { TableData } from '../../app/types/global'
 
-export type TableData = {
-	id: string
-	oper: string
-	date: string
-    term: string
-    store: string
-	term2: string
-	profTS: string
-	status: string
-	areaBuy: string
-	myPrice: number
-	propos: string
-	doubleOk: string
-	plusPropos: string
-	priceAnPropos: string
-	comission: string
-	toPrice: number
-	create: string
-	okCreating: string
-	client: string
-}
 
 type TableProps = {
 	data: TableData[]
@@ -250,9 +231,7 @@ const Table: React.FC<TableProps> = ({ data, onRowClick }) => {
 										${cell.column.id === 'comission' ?'border-r-w-5':''}
 										${cell.column.id === 'toPrice' ?'border-r-w-5':''}
 										${cell.column.id === 'create' ?'border-r-w-5':''}
-										${cell.column.id === 'okCreating' ?'border-r-w-7':''}
-										
-										`}
+										${cell.column.id === 'okCreating' ?'border-r-w-7':''}`}
 								>
 									{flexRender(cell.column.columnDef.cell, cell.getContext())}
 								</td>

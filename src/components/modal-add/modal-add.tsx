@@ -1,6 +1,6 @@
 // Modal.tsx
 import React, { useEffect, useState } from 'react'
-import { TableData } from '../table/table'
+import { TableData } from '../../app/types/global'
 
 
 interface ModalProps {

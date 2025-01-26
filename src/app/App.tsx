@@ -3,7 +3,8 @@ import Header from '../components/header/header'
 import Application from '../pages/application/application'
 import Orders from '../pages/orders/orders'
 import { createContext, useState } from 'react'
-import { TableData } from '../components/table/table'
+import { TableData } from './types/global'
+import Auth from '../pages/auth/auth'
 import './index.css'
 
 // type CurrentProps = {
@@ -33,9 +34,10 @@ function App() {
 		<>
 			<CurrentContext.Provider value={{ currentRow, setCurrentRow }}>
 				<ModalContext.Provider value={{ isOpen, setIsOpen }}>
-					<Header />
+					{location.pathname !== '/' && <Header />}
 					<Routes>
-						<Route path='/' element={<Application />} index />
+						<Route path='/' element={<Auth />} />
+						<Route path='/main' element={<Application />} />
 						<Route path='/orders' element={<Orders />} />
 					</Routes>
 				</ModalContext.Provider>
